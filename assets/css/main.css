@@ -2703,7 +2703,7 @@
             background-color: #a6aebc;
         }
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 800px) {
 
 			input[type="submit"],
 			input[type="reset"],
