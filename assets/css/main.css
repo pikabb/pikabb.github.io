@@ -3104,10 +3104,9 @@ opacity: 1;
 }
 
 #plybtn img{
-			display: inline-block;
-			font-weight: 600;
-			height: inherit;
-			left: 0;
+	display: inline-block;
+	font-weight: 600;
+	height: inherit;
         line-height: inherit;
 	text-align: center;
 	padding: 0;
