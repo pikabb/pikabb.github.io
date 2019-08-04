@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Revenge of the Fallen</title>
+<title>UT Reborn</title>
 <meta charset="utf-8" />
 <meta name="google-site-verification" content="dVlcQAzUID9-j8xKM1VzL_8Ge6CUCxnFCtQ2xPFUAJU" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,24 +24,17 @@
 <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <script type="text/javascript" src="assets/js/windutils.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-		  new Crate({
-		    server: '315795407294824448',
-		    channel: '459790489273499648',
-		    shard: 'https://cl3.widgetbot.io'
-		  })
-		</script>
 </head>
 <body>
 
 <header id="header">
 <div class="inner">
-<a href="index.html" class="logo">Revenge of the Fallen</a>
+<a href="index.html" class="logo">UT Reborn</a>
 <nav id="nav">
 <a href="index.html">Home</a>
-<a href="https://discord.gg/gfJZCZD">Discord</a>
-<a href="purchase.html" target="_blank">Premium</a>
-<a href="market/">Market</a>
+<a href="https://discord.gg/wfY3vXM">Discord</a>
+<a href="about.html" target="_blank">About Us</a>
+<a href="wiki.html/">Wiki</a>
 <a href="webclient.html">Webclient</a>
 </nav>
 <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
@@ -51,38 +44,8 @@
 
 <div id="notification"><p id="newsnotif" class="notification">Welcome!</p></div>
 <section id="banner">
-<h1>Welcome to Revenge of the Fallen</h1>
-<p>A free, massively multiplayer online bullet hell game.</p>
+<h1>Welcome to UT Reborn.</h1>
 <a href="webclient.html" class="button bannerSpecial">Play now</a>
-</section>
-
-<section id="one" class="wrapper">
-<div class="inner">
-<div class="flex flex-3">
-<article>
-<header>
-<h3>Simple to pick up</h3>
-</header>
-<p>The game is simple. Shoot the bad guys. Earn some loot. Clear some dungeons. Make your way up to Oryx!</p>
-</article>
-<article>
-<header>
-<h3>Difficult to master</h3>
-</header>
-<p>RotF is challenging. With new dungeons, skills, galactic worlds and more, we're more than just a RotMG private server.</p>
-</article>
-<article>
-<header>
-<h3>Engaging community</h3>
-</header>
-<p>With talented staff members and a community of over 35000 players, you'll always feel at home here. Enjoy!</p>
-</article>
-</div>
-<footer>
-<p style="padding-top: 40px;"></p>
-<a href="webclient.html" class="button special" style="width:100%;">Play</a>
-</footer>
-</div>
 </section>
 
 <section id="two" class="wrapper style1 special">
@@ -279,22 +242,5 @@ Dungeon Master
 </div>
 </footer>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-<script type="text/javascript">
-                        jQuery(document).ready(function() {
-                            getNews();
-                        });
-                        function getNews() {
-                            $.get("newsProxy.php?cachebust=" + Math.random(), function(data) {
-                                data = $.trim(data);
-                                document.getElementById("newsnotif").innerHTML = data;
-                                setTimeout(getNews(), 9000);
-                            });
-                        }
-                        </script>
-<script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </body>
 </html>
