@@ -3112,12 +3112,8 @@ opacity: 1;
 }
 
 #h2fd h2 {
-	display: inline-block;
-height: inherit;
-line-height: inherit;
-			position: absolute;
-			top: 0;
-    margin-top: 10px;
+    position: absolute;
+    top: 0;
     font-size: 30px;
     text-align: center;
     animation: fadein 2s;
