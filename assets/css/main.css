@@ -3090,15 +3090,17 @@
 
 	}
 
-/* Play button */
+/* Play Button */
 .plybtn {
-  opacity: 0.6	
-  border: none; /* Remove borders */
-  padding: 12px 16px; /* Some padding */
-  cursor: pointer; /* Mouse pointer on hover */
-}
-
-/* Darker background on mouse-over */
-.plybtn:hover {
-  opacity: 1
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+    &:hover {
+        filter: brightness(110%);
+        -webkit-filter: brightness(110%);
+        -moz-filter: brightness(110%);
+        -o-filter: brightness(110%);
+        -ms-filter: brightness(110%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+    }
 }
