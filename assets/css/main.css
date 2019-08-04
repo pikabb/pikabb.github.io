@@ -3104,7 +3104,7 @@ opacity: 1;
 }
 
 #plybtn img{
-    margin-top: 10px;
+    margin-top: 5px;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
