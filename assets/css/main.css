@@ -3112,7 +3112,6 @@ opacity: 1;
     position: absolute;
     text-align: center;
     top: 4em;
-    width: 100%;
     z-index: 10001;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
