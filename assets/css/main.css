@@ -3104,7 +3104,7 @@ opacity: 1;
 }
 
 #plybtn img{
-    margin-top: 50px;
+    margin-top: 80px;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -3112,8 +3112,8 @@ opacity: 1;
 }
 
 #test h2 {
-    margin-top: 25px;
-    font-size: 21px;
+    margin-top: 10px;
+    font-size: 30px;
     text-align: center;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
