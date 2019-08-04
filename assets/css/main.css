@@ -3104,14 +3104,16 @@ opacity: 1;
 }
 
 #plybtn img{
-	display: inline-block;
-	font-weight: 600;
-	height: inherit;
-        line-height: inherit;
-	text-align: center;
-	padding: 0;
-	position: absolute;
-	top: 5px;
+    color: #d8bfff;
+    cursor: default;
+    height: 3.25em;
+    left: 0;
+    line-height: 3.25em;
+    position: absolute;
+    text-align: center;
+    top: 4em;
+    width: 100%;
+    z-index: 10001;
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
